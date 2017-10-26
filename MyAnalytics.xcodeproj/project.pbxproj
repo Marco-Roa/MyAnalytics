@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A96F17C02EC7E8D97A5EC1D8 /* libPods-MyAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F41621705A2EDF1557251627 /* libPods-MyAnalytics.a */; };
 		F4EE98521FA154F7006C2769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE98511FA154F7006C2769 /* AppDelegate.m */; };
 		F4EE98551FA154F7006C2769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE98541FA154F7006C2769 /* ViewController.m */; };
 		F4EE98581FA154F7006C2769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE98561FA154F7006C2769 /* Main.storyboard */; };
@@ -14,9 +15,13 @@
 		F4EE985D1FA154F7006C2769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EE985C1FA154F7006C2769 /* Assets.xcassets */; };
 		F4EE98601FA154F7006C2769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EE985E1FA154F7006C2769 /* LaunchScreen.storyboard */; };
 		F4EE98631FA154F7006C2769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE98621FA154F7006C2769 /* main.m */; };
+		F4EE986C1FA156D9006C2769 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EE986B1FA156D9006C2769 /* GoogleService-Info.plist */; };
+		F4EE98701FA15A25006C2769 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F4EE986F1FA15A25006C2769 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE1A43D768F64C5550305B01 /* Pods-MyAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		F41621705A2EDF1557251627 /* libPods-MyAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EE984D1FA154F7006C2769 /* MyAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4EE98501FA154F7006C2769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4EE98511FA154F7006C2769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +33,9 @@
 		F4EE985F1FA154F7006C2769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4EE98611FA154F7006C2769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4EE98621FA154F7006C2769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4EE986B1FA156D9006C2769 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4EE986F1FA15A25006C2769 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB3F912BDA732F33BAE5C9AB /* Pods-MyAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A96F17C02EC7E8D97A5EC1D8 /* libPods-MyAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69F79086553DC397B85A30C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F41621705A2EDF1557251627 /* libPods-MyAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A87E3C73F505F38F1817A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A43D768F64C5550305B01 /* Pods-MyAnalytics.debug.xcconfig */,
+				FB3F912BDA732F33BAE5C9AB /* Pods-MyAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4EE98441FA154F7006C2769 = {
 			isa = PBXGroup;
 			children = (
+				F4EE986F1FA15A25006C2769 /* Podfile */,
 				F4EE984F1FA154F7006C2769 /* MyAnalytics */,
 				F4EE984E1FA154F7006C2769 /* Products */,
+				8A87E3C73F505F38F1817A23 /* Pods */,
+				69F79086553DC397B85A30C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,18 +89,35 @@
 		F4EE984F1FA154F7006C2769 /* MyAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				F4EE98501FA154F7006C2769 /* AppDelegate.h */,
-				F4EE98511FA154F7006C2769 /* AppDelegate.m */,
-				F4EE98531FA154F7006C2769 /* ViewController.h */,
-				F4EE98541FA154F7006C2769 /* ViewController.m */,
+				F4EE98691FA15501006C2769 /* Main */,
+				F4EE986A1FA1550C006C2769 /* Controllers */,
 				F4EE98561FA154F7006C2769 /* Main.storyboard */,
 				F4EE985C1FA154F7006C2769 /* Assets.xcassets */,
 				F4EE985E1FA154F7006C2769 /* LaunchScreen.storyboard */,
 				F4EE98611FA154F7006C2769 /* Info.plist */,
 				F4EE98621FA154F7006C2769 /* main.m */,
 				F4EE98591FA154F7006C2769 /* MyAnalytics.xcdatamodeld */,
+				F4EE986B1FA156D9006C2769 /* GoogleService-Info.plist */,
 			);
 			path = MyAnalytics;
+			sourceTree = "<group>";
+		};
+		F4EE98691FA15501006C2769 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE98501FA154F7006C2769 /* AppDelegate.h */,
+				F4EE98511FA154F7006C2769 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F4EE986A1FA1550C006C2769 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE98531FA154F7006C2769 /* ViewController.h */,
+				F4EE98541FA154F7006C2769 /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4EE98661FA154F7006C2769 /* Build configuration list for PBXNativeTarget "MyAnalytics" */;
 			buildPhases = (
+				0EE4F25F65300E940D6B07B3 /* [CP] Check Pods Manifest.lock */,
 				F4EE98491FA154F7006C2769 /* Sources */,
 				F4EE984A1FA154F7006C2769 /* Frameworks */,
 				F4EE984B1FA154F7006C2769 /* Resources */,
+				E2986503940E762DF14C7E94 /* [CP] Embed Pods Frameworks */,
+				F8417F4AFC2B2267189CD631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +181,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EE98701FA15A25006C2769 /* Podfile in Resources */,
 				F4EE98601FA154F7006C2769 /* LaunchScreen.storyboard in Resources */,
+				F4EE986C1FA156D9006C2769 /* GoogleService-Info.plist in Resources */,
 				F4EE985D1FA154F7006C2769 /* Assets.xcassets in Resources */,
 				F4EE98581FA154F7006C2769 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EE4F25F65300E940D6B07B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2986503940E762DF14C7E94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8417F4AFC2B2267189CD631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4EE98491FA154F7006C2769 /* Sources */ = {
@@ -280,6 +382,7 @@
 		};
 		F4EE98671FA154F7006C2769 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE1A43D768F64C5550305B01 /* Pods-MyAnalytics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +396,7 @@
 		};
 		F4EE98681FA154F7006C2769 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3F912BDA732F33BAE5C9AB /* Pods-MyAnalytics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
