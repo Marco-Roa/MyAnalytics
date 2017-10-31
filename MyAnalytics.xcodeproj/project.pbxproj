@@ -17,6 +17,13 @@
 		F4EE98631FA154F7006C2769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EE98621FA154F7006C2769 /* main.m */; };
 		F4EE986C1FA156D9006C2769 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4EE986B1FA156D9006C2769 /* GoogleService-Info.plist */; };
 		F4EE98701FA15A25006C2769 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F4EE986F1FA15A25006C2769 /* Podfile */; };
+		F4EF7DCC1FA80F3000547BEE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EF7DCB1FA80F3000547BEE /* TableViewController.m */; };
+		F4EF7DCF1FA8152800547BEE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EF7DCE1FA8152800547BEE /* DetailViewController.m */; };
+		F4EF7DD81FA815EE00547BEE /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4EF7DD71FA815EE00547BEE /* FinalViewController.m */; };
+		F4EF7DDE1FA81BE600547BEE /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4EF7DDA1FA81BE600547BEE /* apple.jpg */; };
+		F4EF7DDF1FA81BE600547BEE /* melon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4EF7DDB1FA81BE600547BEE /* melon.jpg */; };
+		F4EF7DE01FA81BE600547BEE /* pear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4EF7DDC1FA81BE600547BEE /* pear.jpg */; };
+		F4EF7DE11FA81BE600547BEE /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4EF7DDD1FA81BE600547BEE /* banana.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,16 @@
 		F4EE98621FA154F7006C2769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4EE986B1FA156D9006C2769 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4EE986F1FA15A25006C2769 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F4EF7DCA1FA80F3000547BEE /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F4EF7DCB1FA80F3000547BEE /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F4EF7DCD1FA8152800547BEE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F4EF7DCE1FA8152800547BEE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F4EF7DD61FA815EE00547BEE /* FinalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinalViewController.h; sourceTree = "<group>"; };
+		F4EF7DD71FA815EE00547BEE /* FinalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalViewController.m; sourceTree = "<group>"; };
+		F4EF7DDA1FA81BE600547BEE /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		F4EF7DDB1FA81BE600547BEE /* melon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = melon.jpg; sourceTree = "<group>"; };
+		F4EF7DDC1FA81BE600547BEE /* pear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pear.jpg; sourceTree = "<group>"; };
+		F4EF7DDD1FA81BE600547BEE /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
 		FB3F912BDA732F33BAE5C9AB /* Pods-MyAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +106,7 @@
 		F4EE984F1FA154F7006C2769 /* MyAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				F4EF7DD91FA81A4700547BEE /* images */,
 				F4EE98691FA15501006C2769 /* Main */,
 				F4EE986A1FA1550C006C2769 /* Controllers */,
 				F4EE98561FA154F7006C2769 /* Main.storyboard */,
@@ -114,10 +132,27 @@
 		F4EE986A1FA1550C006C2769 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F4EF7DCD1FA8152800547BEE /* DetailViewController.h */,
+				F4EF7DCE1FA8152800547BEE /* DetailViewController.m */,
+				F4EF7DCA1FA80F3000547BEE /* TableViewController.h */,
+				F4EF7DCB1FA80F3000547BEE /* TableViewController.m */,
 				F4EE98531FA154F7006C2769 /* ViewController.h */,
 				F4EE98541FA154F7006C2769 /* ViewController.m */,
+				F4EF7DD61FA815EE00547BEE /* FinalViewController.h */,
+				F4EF7DD71FA815EE00547BEE /* FinalViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4EF7DD91FA81A4700547BEE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF7DDA1FA81BE600547BEE /* apple.jpg */,
+				F4EF7DDD1FA81BE600547BEE /* banana.jpg */,
+				F4EF7DDB1FA81BE600547BEE /* melon.jpg */,
+				F4EF7DDC1FA81BE600547BEE /* pear.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +219,12 @@
 				F4EE98701FA15A25006C2769 /* Podfile in Resources */,
 				F4EE98601FA154F7006C2769 /* LaunchScreen.storyboard in Resources */,
 				F4EE986C1FA156D9006C2769 /* GoogleService-Info.plist in Resources */,
+				F4EF7DDF1FA81BE600547BEE /* melon.jpg in Resources */,
+				F4EF7DE11FA81BE600547BEE /* banana.jpg in Resources */,
 				F4EE985D1FA154F7006C2769 /* Assets.xcassets in Resources */,
+				F4EF7DDE1FA81BE600547BEE /* apple.jpg in Resources */,
 				F4EE98581FA154F7006C2769 /* Main.storyboard in Resources */,
+				F4EF7DE01FA81BE600547BEE /* pear.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,9 +270,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -250,7 +293,10 @@
 				F4EE98551FA154F7006C2769 /* ViewController.m in Sources */,
 				F4EE98521FA154F7006C2769 /* AppDelegate.m in Sources */,
 				F4EE98631FA154F7006C2769 /* main.m in Sources */,
+				F4EF7DCC1FA80F3000547BEE /* TableViewController.m in Sources */,
 				F4EE985B1FA154F7006C2769 /* MyAnalytics.xcdatamodeld in Sources */,
+				F4EF7DCF1FA8152800547BEE /* DetailViewController.m in Sources */,
+				F4EF7DD81FA815EE00547BEE /* FinalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

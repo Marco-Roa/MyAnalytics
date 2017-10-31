@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
+@import GoogleSignIn;
 
-@interface ViewController : UIViewController
+//@interface ViewController : UIViewController
+@interface ViewController : UIViewController<GIDSignInUIDelegate>
 
+@property(weak, nonatomic) IBOutlet GIDSignInButton *signInButton;
+@property (weak, nonatomic) IBOutlet UILabel *statusMessageLabel;
+@property (weak, nonatomic) IBOutlet UIButton *continueButton;
+- (IBAction)continueButtonPressed:(id)sender;
 
 @end
 

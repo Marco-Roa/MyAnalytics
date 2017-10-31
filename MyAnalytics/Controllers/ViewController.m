@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+@import Firebase;
+@import GoogleSignIn;
 
 @interface ViewController ()
 
@@ -16,7 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    [[GIDSignIn sharedInstance] signOut];
+    [[GIDSignIn sharedInstance] signIn];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    //[self performSegueWithIdentifier:@"toTables" sender:self];
+    
+    
 }
 
 
@@ -24,6 +35,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)eventButtonPressed:(id)sender
+{
+    [FIRAnalytics logEventWithName:@"EventButtonPressed"
+                        parameters:@{
+                                     @"name": @"TestEvent",
+                                     @"full_text": @"TestText"
+                                     }];
+
+}
 
 
+
+- (IBAction)continueButtonPressed:(id)sender
+{
+    [self performSegueWithIdentifier:@"toTables" sender:self];
+}
 @end
